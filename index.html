@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portafólio</title>
 </head>
 <body>
@@ -13,6 +14,43 @@
     <!-- Formación + Cursos -->
     <!-- Experiencia en Programación -->
     <!-- Formulario de Contacto -->
+    <section class="contato" id="contacto">
+        <h2>Contacto</h2>
+    <div class="contenedor">
+        <div class="contactodiv">
+            <p>Quieres entrar en contacto conmigo? 
+            <p>Llena el siguiente formulário y entraré en contacto contigo lo más rápido posible.</p>
+            <p>También me puedes encontrar en mis redes sociales:</p>
+            <div class="redes">
+               <a href="https://instagram.com/genesysmer"><img src="img/instagram.png" alt="instagram-logo" /></a> 
+                <a href="https://www.facebook.com/gene.rondon1"><img src="img/facebook.png" alt="logo-facebook" /></a>
+                
+           </div>      
+        </div>
+        <div class="formulario">
+            <form action="" name="form">
+                <label >Nombre:
+                <input type="text" name="name" >
+                </label>
+                <label for="email">Correo Electrónico:
+                <input type="email" name="email"  >
+                </label>
+                <label for="assunto">Asunto:
+                <input type="text" name="assunto" >
+                </label>
+                <label for="textarea">Mensaje:
+                <textarea name="textarea" rows="10" cols="50"  ></textarea>
+                </label>
+                <button type="submit" id="summit" onclick="validarDatos()">ENVIAR</button>
+            </form>
+            <p id="error"></p>
+        </div>
+    </div>
+    </section>
     <!-- Rodapié -->
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
