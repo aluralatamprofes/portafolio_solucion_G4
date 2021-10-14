@@ -82,35 +82,93 @@ header figure{
     width: 20%;
     margin: 0px 20px;
 }
-.soft-skills {
+.hobbies-skills {
     width: 85%;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 
-.skills{
+.skills {
     width: 20%;
     padding: 30px;
     text-align: center;
-    background:#F2F2F2;
+    background:#FFF;
 }
 
-.skills .title{
+.skills .title {
     font-weight: 700;
     color: #00040e;
     margin: 10px 0;
 }
 
-.skills p{
-    font-weight: 300;
-    color: #fff ;
+.skills .tecnologias{ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.skills .tecnologias img{
+    width: 40%;
+    margin: 0px 20px;
+}
+.hobbies{
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+    background:#FFF;
+}
 
+.hobbies .title{
+    font-weight: 700;
+    color: #00040e;
+    margin: 10px 0;
+}
+
+.hobbies ul li{
+    font-weight: 300;
+    color: #00040e;
+    text-align: left;
+}
+
+.formações{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background: #5fb8c4;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.universidade{
+    background:#F2F2F2 0% 0% no-repeat padding-box;
+    margin-top: 20px;
+    padding: 15px;
+}
+.universidade img{
+    width: 10%;
+    margin: 0px 20px;
+}
+.cursos{
+    background:#F2F2F2 0% 0% no-repeat padding-box;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.cursos img{
+    margin: 30px;
+    border: 1px solid #ccc;
+    justify-items: center;
+}
+.cursos img:hover {
+    border: 2px solid #777;
+}
 .projetos {
     background: #F2F2F2 0% 0% no-repeat padding-box;
     height:auto;
@@ -258,11 +316,12 @@ form button {
 }
 .redes img {
     width: 41px;
-    height: 40px;
-    border-radius: 50px;
-    background-image: #ffffff;
+    height: 40px; 
+    margin: 10px 0px;
+    border-radius: 20px;
+    /*background-image: #ffffff;
     justify-content: center;
-    object-fit: cover;
+    object-fit: cover; */
 }
 .contenedor{
     display: flex;  
