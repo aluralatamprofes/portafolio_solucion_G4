@@ -1,11 +1,8 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
-    font-family: 'Open Sans';
-    font-weight: 400; 
-} */
+} 
 header{
     width: 100%;
     height: 70%; 
@@ -116,42 +113,45 @@ header figure{
 
 .projetos {
     background: #F2F2F2 0% 0% no-repeat padding-box;
+    height:auto;
     opacity: 1;
-    padding-left: 174px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items: center;
+      
 }
 .projetos h2 {
-    padding-top: 34px;
-    padding-bottom: 20px;
     width: 800px;
-    height: 73px;
-    text-align: left;
-    font: 55px/73px Segoe UI;
+    height: auto;
+    text-align: center;
+    font: 55px/73px Open Sans, sans-serif;
     font-weight: 200;
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;   
 }
 .proyectos {
-width: 260px;
-height: 335px;
+width: 280px;
+height: auto;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 6px #00000029;
 border-radius: 5px;
 opacity: 1;
 padding-left: 10px;
 padding-right: 10px;
+padding-bottom: 20px;
 }
 
 .proyectos p {  
 width: 220px;
-height: 76px;
+height: 78px;
 text-align: left;
-font: Regular 13px/17px Segoe UI;
+font: Regular 13px/17px;
 letter-spacing: 0px;
 color: #707070;
 opacity: 1;
+
+
 }
 .proyectos h2 {
     width: 240px;
@@ -179,8 +179,8 @@ article {
 }
 .imgproyecto{
 padding-top: 10px;  
-width: 250px;
-height: 129px;
+width: 280px;
+height: 210px;
 }
 form {
     display:flex;
@@ -189,10 +189,9 @@ form {
 }
 .contato{ 
     height: auto;
-    background: #000000 0% 0% no-repeat padding-box;
+    background: #5fb8c4 0% 0% no-repeat padding-box;
     opacity: 1;
     padding-left: 174px;
-    padding-top: 34px;
     display: flex;
     flex-direction: column;   
 }
@@ -202,14 +201,15 @@ form {
     width: 90%;
 }
 .contato h2{
-    width: 185px;
-    height: 73px;
-    text-align: left;
-    font: 55px/73px Segoe UI;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    font: 55px/73px Open Sans, sans-serif;
     font-weight: 200;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+    color: #ffffff;
+    opacity: 1; 
+    padding-left:120px;
 }
 label{
     color: #ffffff;
@@ -232,19 +232,29 @@ textarea {
     opacity: 1;
     margin-bottom: 20px;
 }
-.button {
+form button {
     width: 110px;
     height: 34px;
-    background: #585858 0% 0% no-repeat padding-box;
+    background: black 0% 0% no-repeat padding-box;
     border-radius: 5px;
     opacity: 1;
     color: #ffffff;
     align-items: center;
-     margin-right:auto;
+    margin-right:auto;
     margin-left:auto;    
 }
+.button {
+    width: 100px;
+    height: 34px;
+    background: #5fb8c4 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    color: #ffffff;
+    align-items: center;
+   
+}
 .redes{
-    padding-left: 68px;
+    padding-left: 0px;
 }
 .redes img {
     width: 41px;
