@@ -56,27 +56,48 @@ header figure{
     width: 100%;
     position: relative;
     text-align: center;
-    /* background: rgb(242, 242,242);  */
-    padding: 20px 0;
-    margin-bottom: 100px;
+    background-image: url(../img/Banner/bannerazul.jpg);
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 .About-me article {
     width: 60%;
     margin: auto;
     display:flex;
     justify-content: space-around;
-    /* line-height: 35px; */
-    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
     font-weight: 700; 
+    color: #585858;
+    font-size: 20px;
 }
-
+.About-me h1 {
+    color: #585858;
+    font: 80px/80px Open Sans, sans-serif;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;   
+}
+.absolute{
+    position: absolute;
+    top: 120px;
+    left:1050px;  
+}
+.title{
+    color: #707070;
+    font: 55px/73px Open Sans, sans-serif;
+}
 .redes {
     width: 70%;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 40px;
 } 
 .redes img{
     width: 20%;
@@ -99,12 +120,6 @@ header figure{
     background:#FFF;
 }
 
-.skills .title {
-    font-weight: 700;
-    color: #00040e;
-    margin: 10px 0;
-}
-
 .skills .tecnologias{ 
 
     display: flex;
@@ -123,11 +138,6 @@ header figure{
     background:#FFF;
 }
 
-.hobbies .title{
-    font-weight: 700;
-    color: #00040e;
-    margin: 10px 0;
-}
 
 .hobbies ul li{
     font-weight: 300;
@@ -140,23 +150,71 @@ header figure{
     position: relative;
     text-align: center;
     padding: 20px 0;
-    margin-bottom: 30px;
     background: #5fb8c4;
     margin-top: 20px;
-    padding: 15px;
+   
+}
+
+.formações h2{
+    color: #fff;
+    font: 55px/73px Open Sans, sans-serif;
 }
 
 .universidade{
-    background:#F2F2F2 0% 0% no-repeat padding-box;
-    margin-top: 20px;
-    padding: 15px;
+    padding-left: 15px;
+    padding-bottom: 34px;
+    margin-top: -10px;
+    width: 100%;
+}
+.universidade h5 {
+    
+    width: 109px;
+    height: 31px;
+    text-align: left;
+    font:  13px/34px Segoe UI;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;    
+}
+.universidade h3 {
+width: 844px;
+height: 31px;
+text-align: left;
+font: 21px/34px Segoe UI;
+font-weight: 700;
+letter-spacing: 0px;
+color: #ffffff;
+opacity: 1;
+}
+
+.universidade h4 { 
+    top: 1129px;
+left: 582px;
+width: 558px;
+height: 31px;
+text-align: left;
+font: 13px/34px Segoe UI;
+font-weight: 600;
+letter-spacing: 0px;
+color: #fff;
+opacity: 1;
+}
+
+.formações hr {
+width: 8px;
+height: 85px;
+background: #ffffff 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+margin-left: 300px;
+
 }
 .universidade img{
     width: 10%;
     margin: 0px 20px;
 }
 .cursos{
-    background:#F2F2F2 0% 0% no-repeat padding-box;
     margin-top: 20px;
     padding: 15px;
 }
@@ -237,7 +295,7 @@ article {
 }
 .imgproyecto{
 padding-top: 10px;  
-width: 280px;
+width: 260px;
 height: 210px;
 }
 form {
@@ -249,9 +307,10 @@ form {
     height: auto;
     background: #5fb8c4 0% 0% no-repeat padding-box;
     opacity: 1;
-    padding-left: 174px;
+    padding-left: 310px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    padding-bottom: 15px;   
 }
 .contactodiv p{
     padding: -250px;
@@ -326,3 +385,13 @@ form button {
 .contenedor{
     display: flex;  
 }
+footer {
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #fff 0% 0% no-repeat padding-box;
+    color: #585858;
+    font: 12px Open Sans, sans-serif;
+}
+
+

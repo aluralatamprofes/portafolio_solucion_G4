@@ -13,38 +13,34 @@
         <nav id="menu">
             <ul>
                 <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#">Soft Skills</a></li>
-                <li><a href="#">Formação</a></li>
+                <li><a href="#soft-skills">Soft Skills</a></li>
+                <li><a href="#formacao">Formação</a></li>
                 <li><a href="#proyectos">Experiência</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <div>
-            <h1 class="title">Nome </h1>
-            <!-- <figure>
-                <img src="./img/programmer-gaab4cf807_1280.png" alt="" width="100">
-            </figure> -->
-        </div>
-     <!-- Sobre Mí - Redes sociales -->
-        <section class="About-me">
-            <article>
-                <p id="sobre">Olá, meu nome é <em>Nome</em><strong> Sou Desenvolvedor Junior</strong></br>
-                 me formei em ... </br>
-                 atualmente estou participando do projeto Oracle ONE na Alura
-
-                </p>
-            </article>
-            <section class="redes">
-                <a target="_blank" href=""><img src="img/Redes-Sociais/github.png" alt="github"></a>
-                <a target="_blank" href=""><img src="img/Redes-Sociais/linkedin.png" alt="linkedin"></a>
-                <a target="_blank" href=""><img src="img/Redes-Sociais/facebook.png" alt="facebook"></a>
-                <a target="_blank" href=""><img src="img/Redes-Sociais/instagram.png" alt="instagram"></a>
-            
-            </section>
-        </section>
     </header>
+    <!-- About me -->
+    <section class="About-me">
+        <h1>Nome</h1>
+        <div class="absolute">
+            <img  class="img"  src="img/Banner/perfil.png" alt="foto perfil" />
+        </div>
+        <article>
+            <p id="sobre">Olá, meu nome é <em>Nome</em><strong> Sou Desenvolvedor Junior</strong></br>
+             me formei em ... </br>
+             atualmente estou participando do projeto Oracle ONE na Alura
+            </p>
+        </article>
+        <div class="redes">
+            <a target="_blank" href=""><img src="img/Redes-Sociais/github.png" alt="github"></a>
+            <a target="_blank" href=""><img src="img/Redes-Sociais/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href=""><img src="img/Redes-Sociais/facebook.png" alt="facebook"></a>
+            <a target="_blank" href=""><img src="img/Redes-Sociais/instagram.png" alt="instagram"></a>            
+        </div>
+    </section>
     <!-- Hobbies e Soft Skills -->
-    <section class="hobbies-skills">
+    <section class="hobbies-skills" id="soft-skills">
         <div class="skills">
             <img src="img/Formacion/Soft skills.png" alt="/objetivos"  width="128px">
             <h3 class="title">Skills</h3>
@@ -68,15 +64,19 @@
         </div>
     </section>
     <!-- Formación + Cursos -->
-    <section class="formações">
-        <div class="universidade">         
-            <!-- <img src="img/Formacion/formação.png" alt="formação"  width="128px"> -->
-
-            <h3 class="title">Formação Acadêmica</h3>
-            <p>Graduação em </p>
+    <section class="formações" id="formacao" >
+        <h2>Formação Acadêmica</h2>
+        <img src="img/Formacion/formação.png" alt="formação"  width="50px">
+        <div class="contenedor">
+         <hr>
+            <div class="universidade">         
+               <h5>2012-2018</h5>
+               <h3>Analisis de Dados</h3>
+               <h4>UFRJ</h4>
+            </div>
         </div>
         <div class="cursos"> 
-            <h3 class="title">Cursos</h3>
+            <h2 class="title">Cursos</h2>
             <img src="img/Formacion/5087272.jpg" alt="certificado" width="300" height="200">
             <img src="img/Formacion/5087272.jpg" alt="certificado" width="300" height="200">
             <img src="img/Formacion/5087272.jpg" alt="certificado" width="300" height="200">
@@ -123,11 +123,7 @@
         <div class="contactodiv">
             <p>Quer entrar em contato comigo? 
                 <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                <p>Você também pode me encontrar nas seguintes redes sociais:</p>
-            <div class="redes">
-               <a href="https://instagram.com/aluralatam" target="_blank"><img src="img/Redes-Sociais/instagram.png" alt="instagram-logo"/></a> 
-                <a href="https://www.facebook.com/aluracursoslatam/" target="_blank"><img src="img/Redes-Sociais/facebook.png" alt="logo-facebook" /></a>                
-           </div>      
+                <p>Você também pode me encontrar nas seguintes redes sociais:</p>             
         </div>
         <div class="formulario">
             <form action="" name="form">
@@ -151,6 +147,8 @@
     </section>
     <!-- Rodapié -->
     <footer>
+        <h2>Desenvolvido por <em>"Nome"</em></h2>
+        <h3>Copyright 2021</h3>
 
     </footer>
     <script src="script.js"></script>
