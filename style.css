@@ -306,12 +306,11 @@ section.formcontato{
         width: 80vw;
     }
     form input::placeholder {
-         color:#2A7AE4; 
+         color:#464646; 
     }
     
-    section.formcontato form input:active{
+    section.formcontato form input:focus{
         border-bottom: solid 2px #2A7AE4;
-
     }
     section.formcontato form textarea{
         border: transparent;
@@ -321,8 +320,13 @@ section.formcontato{
         width: 80vw;
     }
 
+    section.formcontato form textarea:focus{
+        border-bottom: solid 2px #2A7AE4;
+    }
+
     textarea::placeholder { 
-        color:#2A7AE4;
+        color:#464646;
+        font-family: 'Raleway'
     }
 
 

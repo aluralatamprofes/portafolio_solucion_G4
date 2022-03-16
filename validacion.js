@@ -1,5 +1,5 @@
 function validarDatos(){
-    event.preventDefault()
+    window.event.preventDefault()
      
     if (document.form.nombre.value=="" ) {
         alert("Campo nombre es obligatorio")  
