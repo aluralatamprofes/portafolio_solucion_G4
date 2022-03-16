@@ -540,6 +540,7 @@ section.footer div.rodape{
 
     section.formcontato div.contact {
         display: flex;
+        justify-content: center;
     }
 
     section.formcontato div.contact-text {
