@@ -307,6 +307,7 @@ section.formcontato{
     }
     form input::placeholder {
          color:#464646; 
+         font-family: 'Raleway';
     }
     
     section.formcontato form input:focus{
