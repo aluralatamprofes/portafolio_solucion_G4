@@ -103,14 +103,14 @@ section header {
 /*Sessão About*/
 
 section.about{
-    padding: 1rem;
     background-color: #EAF2FD;
 }
 
+
 section.about div.about-container p{
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 section.about div.about-container img{
@@ -158,7 +158,7 @@ section.about div.about-container img{
         align-items: flex-start;
         padding: 16px;
         background-color: #fbfbfb;
-        margin: 22px 0 22px 0;
+        margin: 15px 0 22px 0;
         width: 156px;
         height: 118px;
     }
@@ -386,6 +386,29 @@ section.footer div.rodape{
         width: 157px;
         margin-left: 32px;
     }
+    /*Skills*/
+
+    section.skills div.skills-line{
+        width: 100%;
+        
+    }
+    section.skills div.skills-line div.skills-box {
+        margin: 22px 12px 10px 0px;
+        width: 180px;
+        height: 118px;
+    }
+
+/*Hobbies*/
+
+    section.hobbies-section div.hobbies-line{
+        width: 100%;
+    }
+
+    section.hobbies-section div.hobbies-line div.hobbies-box {
+        margin: 22px 15px 10px 0px;
+        width: 180px;
+        height: 108px;
+        }
 /*experiências acadêmicas*/
 
     section.academic div.courses{
@@ -466,10 +489,10 @@ section.footer div.rodape{
 /*Sessão sobre*/
 
     section.about{
-        padding: 62px 164px;
+        padding: 62px 50px;
     }
     div.about-container{
-        width: 751px;
+        
         height: 255px;
     }
 
@@ -587,7 +610,7 @@ section.footer div.rodape{
     }
 
     div.about-container{
-        width: 751px;
+        
         height: 255px;
     }
     section.skills div.skills-line{
@@ -595,7 +618,7 @@ section.footer div.rodape{
     }
     section.skills div.skills-line div.skills-box {
         margin: 22px 15px 22px 0px;
-        width: 186px;
+        width: 156px;
         height: 118px;
     }
 
@@ -605,7 +628,7 @@ section.footer div.rodape{
 
     section.hobbies-section div.hobbies-line div.hobbies-box {
         margin: 22px 15px 22px 0px;
-        width: 186px;
+        width: 156px;
         height: 118px;
         }
     section.formcontato {
