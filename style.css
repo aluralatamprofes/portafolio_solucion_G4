@@ -439,9 +439,6 @@ section.footer div.rodape{
 
 /*main*/
 
-    .tudo{
-        margin: 32px 50px; 
-    }
     .section-title {
         font-size: 32px;
     }
@@ -604,10 +601,6 @@ section.footer div.rodape{
 }
 
 @media (min-width: 1440px) {
-
-    .tudo{
-        margin: 32px 152px;
-    }
 
     div.about-container{
         
