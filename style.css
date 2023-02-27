@@ -27,7 +27,7 @@ textarea:focus, input:focus, select:focus {
 
 
 /*Mobile First*/
-.tudo{
+.todo{
     margin: 0 16px 0 16px;
     display: flex;
     flex-direction: column;
@@ -363,7 +363,7 @@ section.footer div.rodape{
 
 @media (min-width: 700px) {
 
-    .tudo{
+    .todo{
         margin: 32px 32px;
     }
 
