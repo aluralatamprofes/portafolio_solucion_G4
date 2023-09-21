@@ -1,0 +1,20 @@
+@import url("./styles/reset.css");
+@import url("./styles/menu.css");
+@import url("./styles/info.css");
+@import url("./styles/about.css");
+@import url("./styles/hobbies.css");
+@import url("./styles/experience.css");
+@import url("./styles/contact.css");
+
+/*------ Media Queries  ------*/
+@import url("./styles/responsiveMedium.css");
+@import url("./styles/responsiveLarge.css");
+@import url("./styles/responsiveExtraLarge.css");
+
+/*Mobile First*/
+.todo {
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
