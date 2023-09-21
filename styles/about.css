@@ -1,0 +1,41 @@
+section.about {
+    background-color: #EAF2FD;
+}
+
+
+section.about div.about-container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+section.about div.about-container img {
+    margin: 16px;
+}
+
+/*Sessão Skill*/
+
+section.skills div.skills-line {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+section.skills div.skills-line div.skills-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #fbfbfb;
+    margin: 22px 0 22px 0;
+    width: 156px;
+    height: 118px;
+}
+
+section.skills div.skills-line div.skills-box ul {
+    margin: 0;
+    padding: 0;
+
+}

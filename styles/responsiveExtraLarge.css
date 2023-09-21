@@ -1,0 +1,31 @@
+@media (min-width: 1440px) {
+
+    div.about-container {
+
+        height: 255px;
+    }
+
+    section.skills div.skills-line {
+        justify-content: center;
+    }
+
+    section.skills div.skills-line div.skills-box {
+        margin: 22px 15px 22px 0px;
+        width: 156px;
+        height: 118px;
+    }
+
+    section.hobbies-section div.hobbies-line {
+        justify-content: center;
+    }
+
+    section.hobbies-section div.hobbies-line div.hobbies-box {
+        margin: 22px 15px 22px 0px;
+        width: 156px;
+        height: 118px;
+    }
+
+    section.formcontato {
+        padding: 64px 172px;
+    }
+}

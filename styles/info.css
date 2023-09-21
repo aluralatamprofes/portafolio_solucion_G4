@@ -1,0 +1,45 @@
+section header h3.menu-title {
+    margin-left: 8px;
+}
+
+section.menu nav ul.menu-list {
+    display: none;
+}
+
+section.menu nav li {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+section.title div.title-div div.title-container h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+section.title div.title-div div.title-container h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+section.title div.title-div div.title-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    font-size: 14px;
+}
+
+section.title img.profile {
+    width: 20%;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}

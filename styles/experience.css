@@ -1,0 +1,52 @@
+section.experience {
+    margin-top: 13px;
+}
+
+section.experience div.experiencia-box {
+    margin: 0 32px 64px 32px;
+}
+
+section.experience div.experiencia-box img {
+    margin-bottom: 16px;
+}
+
+section.experience div.experiencia-box h2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+section.experience div.experiencia-box h3 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+section.experience div.experiencia-box div.experience-description {
+    display: flex;
+}
+
+section.experience div.experiencia-box span.experience-repo button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    box-sizing: border-box;
+}
+
+section.experience div.experiencia-box span.experience-demo button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    margin-left: 16px;
+    border: 1px solid #2A7AE4;
+    background: #2A7AE4;
+    color: white;
+}
+
+section.experience img {
+    width: 100%;
+}

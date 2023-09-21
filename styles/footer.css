@@ -1,0 +1,13 @@
+section.footer {
+    height: 10vh;
+    background-color: white;
+}
+
+section.footer div.rodape {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+}
+
