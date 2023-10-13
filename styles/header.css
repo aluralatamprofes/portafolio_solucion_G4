@@ -1,0 +1,29 @@
+.header {
+    height: 60px;
+    display: flex;
+    margin: 20px 10px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-img {
+    height: 22px;
+}
+
+.menu-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    .menu-lista {
+        flex-direction: row;
+    }
+}
+
+

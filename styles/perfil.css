@@ -1,0 +1,43 @@
+.perfil {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.perfil-img {
+    margin-bottom: 25px;
+    width: 25%;
+    max-width: 368px;
+}
+
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    gap: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.redes-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (min-width: 1024px) {
+    .perfil {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .perfil-titulo {
+        font-size: 45px;
+    }
+}

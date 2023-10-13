@@ -1,0 +1,36 @@
+@import url("./styles/reset.css");
+@import url("./styles/header.css");
+@import url("./styles/perfil.css");
+@import url("./styles/sobre.css");
+@import url("./styles/skills.css");
+@import url("./styles/hobbies.css");
+@import url("./styles/formacion.css");
+@import url("./styles/proyectos.css");
+@import url("./styles/contacto.css");
+@import url("./styles/footer.css");
+
+/*---------------------- Variables ----------------------*/
+:root {
+    --font-size-titulo: 22px;
+}
+
+
+/*---------------------- Main CSS ----------------------*/
+body {
+    background-color: #F5F5F5;
+    line-height: 1;
+    font-family: 'Raleway';
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+@media (min-width: 1200px) {
+    :root {
+        --font-size-titulo: 32px;
+    }
+}
