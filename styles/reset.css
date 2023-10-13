@@ -1,11 +1,7 @@
-body {
+* {
     box-sizing: border-box;
-    background-color: #F5F5F5;
-    cursor: pointer;
-    font-family: 'Raleway';
     margin: 0;
     padding: 0;
-    line-height: 1;
 }
 
 ol,
@@ -16,13 +12,24 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
+textarea,
 textarea:focus,
+input,
 input:focus,
+select,
 select:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
+    border: none;
     outline: 0;
 }
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
