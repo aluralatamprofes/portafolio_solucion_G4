@@ -1,5 +1,6 @@
 .contacto {
     margin: 30px 10px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: #EAF2FD;
@@ -14,11 +15,13 @@
 .contacto-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
     max-width: 360px;
     gap: 25px;
 }
 
 .form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -26,6 +29,7 @@
 
 .form input, textarea {
     padding: 20px 15px;
+    width: 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     resize: none;
 }
